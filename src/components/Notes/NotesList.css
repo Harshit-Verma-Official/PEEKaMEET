@@ -1,0 +1,29 @@
+.fullnote {
+  border-top: 2px solid rgb(219, 219, 219);
+  border-bottom: 2px solid rgb(219, 219, 219);
+  border-right: 2px solid rgb(219, 219, 219);
+  border-left: 8px solid #09a04f;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+}
+.datetime {
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.threedots {
+  text-align: right;
+}
+.moreless {
+  color: #09a04f;
+  display: inline;
+  margin-left: 10px;
+}
+.fullnote_container {
+  overflow: scroll;
+}
+.fullnote_container::-webkit-scrollbar {
+  display: none;
+}
